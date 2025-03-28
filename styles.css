@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #2f2f2f;
+    font-family: Arial, sans-serif;
+}
+
+.timer-container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.time-input {
+    margin-bottom: 1.5rem;
+}
+
+.time-input input {
+    width: 80px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 0 0.3rem;
+}
+
+#timer {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+#start {
+    border-color: #4CAF50;
+    color: #4CAF50;
+}
+
+#start:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pause {
+    border-color: #ff9800;
+    color: #ff9800;
+}
+
+#pause:hover {
+    background-color: #ff9800;
+    color: white;
+}
+
+#reset {
+    border-color: #f44336;
+    color: #f44336;
+}
+
+#reset:hover {
+    background-color: #f44336;
+    color: white;
+}
